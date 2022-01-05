@@ -1,0 +1,91 @@
+:root {
+    --dark-purple: #4C0070;
+    --purple: #79018C;
+    --dark-blue: #160040;
+    --blue: #000957;
+    --light-blue: #E6E6E6;
+    --medium-blue: #5C7AEA;
+    --standar-blue: #3D56B2;
+}
+
+
+
+* {
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .3s linear;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: var(--dark-blue);
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+
+h3 {
+    color: var(--dark-purple);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.navbar-home {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.home-banner {
+    padding: 7%;
+}
+
+.home-content {
+    padding-top: 10%;
+}
+
+.home-content h1 {
+    padding: 7% 0 2%;
+}
+
+.home-content p {
+    padding-bottom: 8%;
+}
+
+.home-button {
+    background-color: var(--dark-purple);
+    border-radius: 100px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 10rem;
+}
+
+.home-button:hover {
+    color: #fff;
+    background-color: var(--dark-blue);
+    font-size: 1.4rem;
+    transition: all .3s ease-out;
+}
+
+
+/* SPECIALS STARTS */
+#specials {
+    background-color: var(--light-blue);
+}
+
+.row .col .card .specials-image img {
+    padding: 25%;
+}
+
+
+
+/* SPECIALS ENDS */
